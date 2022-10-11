@@ -74,14 +74,14 @@ class Game {
       obstacle1Positions.length,
       obstacle1Image,
       
-      0.04,
+      0.08,
       obstacle1Positions
     );
     this.addSprites(
       obstacle2,
       obstacle2Positions.length,
       obstacle2Image,
-      0.04,
+      0.08,
       obstacle2Positions
     );
   }

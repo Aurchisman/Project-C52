@@ -101,7 +101,7 @@ class Game {
       var sprite = createSprite(x, y);
       sprite.addImage("sprite", spriteImage);
 
-      sprite.scale = scale;
+      sprite.scale = scale-0.5;
       spriteGroup.add(sprite);
     }
   }
